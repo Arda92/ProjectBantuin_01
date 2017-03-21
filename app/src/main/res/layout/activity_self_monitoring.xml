@@ -29,24 +29,23 @@
             android:layout_height="wrap_content"
             android:text="Monitoring"/>
 
-        <LinearLayout
+        <RadioGroup
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <CheckBox
-                android:layout_width="0dp"
+            <RadioButton
+                android:layout_width="wrap_content"
                 android:layout_weight="2"
                 android:layout_height="wrap_content"
                 android:text="Project 30 Leader"/>
 
-            <CheckBox
-                android:layout_width="0dp"
+            <RadioButton
+                android:layout_width="wrap_content"
                 android:layout_weight="2"
                 android:layout_height="wrap_content"
-                android:text="Project 30 Agen"/>
-
-        </LinearLayout>
+                android:text="Project 30 Agent"/>
+        </RadioGroup>
 
         <TextView
             android:layout_width="match_parent"

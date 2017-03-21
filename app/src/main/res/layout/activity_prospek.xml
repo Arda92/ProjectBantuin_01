@@ -48,24 +48,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <LinearLayout
+            <RadioGroup
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <CheckBox
-                    android:text="Laki - laki"
+                <RadioButton
                     android:layout_width="wrap_content"
+                    android:layout_weight="2"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"/>
+                    android:text="Laki - Laki"/>
 
-                <CheckBox
-                    android:text="Perempuan"
+                <RadioButton
                     android:layout_width="wrap_content"
+                    android:layout_weight="2"
                     android:layout_height="wrap_content"
-                    android:layout_weight="2"/>
-
-            </LinearLayout>
+                    android:text="Perempuan"/>
+            </RadioGroup>
 
             <EditText
                 android:id="@+id/datePickerPopUp"
@@ -74,26 +73,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <LinearLayout
+
+            <RadioGroup
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_marginBottom="20dp"
                 android:layout_height="wrap_content">
 
-                <CheckBox
-                    android:text="Lajang"
+                <RadioButton
                     android:layout_width="wrap_content"
+                    android:layout_weight="2"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"/>
+                    android:text="Lajang"/>
 
-                <CheckBox
-                    android:text="Menikah"
+                <RadioButton
                     android:layout_width="wrap_content"
+                    android:layout_weight="2"
                     android:layout_height="wrap_content"
-                    android:layout_weight="2"/>
-
-
-            </LinearLayout>
+                    android:text="Menikah"/>
+            </RadioGroup>
 
 
             <TextView

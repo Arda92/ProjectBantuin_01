@@ -29,24 +29,23 @@
         android:layout_height="wrap_content"
         android:text="Jenis Kegiatan"/>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <CheckBox
-            android:layout_width="0dp"
-            android:layout_weight="2"
-            android:layout_height="wrap_content"
-            android:text="Mengikuti Training"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Mengikuti Traingin"/>
 
-        <CheckBox
-            android:layout_width="0dp"
-            android:layout_weight="2"
-            android:layout_height="wrap_content"
-            android:text="Mengajar Di Kelas"/>
-
-    </LinearLayout>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Mengajar di Kelas"/>
+        </RadioGroup>
 
     <TextView
         android:layout_width="match_parent"
